@@ -1,7 +1,7 @@
 @Library(["catalyst@main"])_
 example_pipeline
 {
-    buildNode = "BuiltInNode"
+    buildNode = "inode"
     // def output = sh(returnStdout: true, script: 'pwd')
     //                 echo "Output: ${output}"
     applicationName = "SAMPLE"
