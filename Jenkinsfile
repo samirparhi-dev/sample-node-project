@@ -4,7 +4,7 @@ example_pipeline
     buildNode = "Built-In Node"
     // def output = sh(returnStdout: true, script: 'pwd')
     //                 echo "Output: ${output}"
-    // applicationName = SAMPLE
+    applicationName = "SAMPLE"
     // version = 1.0
     // fileLocation = "pipeline/test"
     // policyURL= "https://example.opa.com"
