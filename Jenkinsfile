@@ -1,6 +1,8 @@
 @library(["example-dsl@main"])_
 example_pipeline
 {
+    def output = sh(returnStdout: true, script: 'pwd')
+                    echo "Output: ${output}"
     applicationName = SAMPLE
     version = 1.0
     fileLocation = "pipeline/test"
