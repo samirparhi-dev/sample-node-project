@@ -1,4 +1,4 @@
-@library(["example-dsl@main"])
+@library(["example-dsl@main"])_
 example_pipeline
 {
     applicationName = SAMPLE
