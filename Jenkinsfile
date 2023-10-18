@@ -1,4 +1,4 @@
-@library(["example-dsl@main"])_
+@library(["catalyst@main"])_
 example_pipeline
 {
     def output = sh(returnStdout: true, script: 'pwd')
