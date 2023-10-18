@@ -1,4 +1,4 @@
-@library(["catalyst@main"])_
+@Library(["catalyst@main"])_
 example_pipeline
 {
     def output = sh(returnStdout: true, script: 'pwd')
